@@ -1,13 +1,16 @@
 {
-  "name": "desafio-arquitetura-ia-boilerplate",
-  "version": "1.0.0",
-  "description": "Boilerplate com código legado para refatoração",
+  "name": "ecommerce-api-legacy",
+  "version": "2.0.0",
+  "description": "LMS API refatorada para MVC — Node.js / Express / better-sqlite3.",
   "main": "src/app.js",
   "scripts": {
     "start": "node src/app.js"
   },
   "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "better-sqlite3": "^11.3.0",
+    "dotenv": "^16.4.5",
     "express": "^4.18.2",
-    "sqlite3": "^5.1.6"
+    "jsonwebtoken": "^9.0.2"
   }
 }
